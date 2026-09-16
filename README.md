@@ -318,6 +318,188 @@ ExpenseWise/
     ├── 08-settings.png
     ├── 09-calendar.png
     └── 10-edit-profile.png
+```
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Before running ExpenseWise, make sure you have:
+
+- Java JDK 8 or higher
+- Windows Operating System
+- VS Code / IntelliJ IDEA / Eclipse
+
+Check Java installation:
+
+```bash
+java -version
+```
+
+Check Java compiler:
+
+```bash
+javac -version
+```
+
+---
+
+# ▶️ How to Run
+
+## Option 1 — Using `run.bat`
+
+The easiest way to start the application is to double-click:
+
+```text
+run.bat
+```
+
+## Option 2 — Using VS Code Terminal
+
+Open the project folder in VS Code and run:
+
+```bash
+javac ExpenseWise.java
+```
+
+Then:
+
+```bash
+java ExpenseWise
+```
+
+---
+
+# 💾 Data Storage
+
+ExpenseWise is designed as an offline desktop application.
+
+The application does not require an online server or cloud database for its basic operation.
+
+Financial records and application-related information are handled through local storage.
+
+---
+
+# 🔐 Privacy & Security
+
+- Financial information is handled locally.
+- No cloud database is required for normal operation.
+- User preferences are stored locally.
+- Generated files should not be committed to GitHub.
+- `.gitignore` is included to help keep generated files out of the repository.
+
+---
+
+# 🎯 Project Objectives
+
+The main objectives of ExpenseWise are:
+
+- Build a practical Java desktop application
+- Implement Java Swing GUI development
+- Apply Object-Oriented Programming
+- Create a useful personal finance management system
+- Implement transaction management
+- Add search and filtering
+- Implement spending analysis
+- Generate financial reports
+- Provide data export functionality
+- Create a professional user interface
+
+---
+
+# 💡 Application Workflow
+
+```text
+        Add Transaction
+               ↓
+        Manage Records
+               ↓
+        Search & Filter
+               ↓
+        Track Budget
+               ↓
+        Analyze Spending
+               ↓
+        Generate Reports
+               ↓
+          Export Data
+```
+
+---
+
+# 📚 What I Learned
+
+While developing ExpenseWise, I gained practical experience in:
+
+- Designing desktop applications using Java Swing
+- Building GUI layouts
+- Handling button and user events
+- Working with collections
+- Managing local files
+- Working with dates and calendars
+- Creating reports
+- Implementing export functionality
+- Managing application settings
+- Structuring a complete Java application
+- Using Git and GitHub for project version control
+
+---
+
+# 🔮 Future Improvements
+
+Possible future enhancements include:
+
+- ☁️ Cloud backup and synchronization
+- 🗄️ MySQL/PostgreSQL database integration
+- 📱 Mobile application
+- 📊 Advanced financial analytics
+- 🔔 Budget notifications
+- 💾 Automatic backup and restore
+- 🧾 Receipt image attachments
+- 📥 Import financial data
+- 🎯 Savings goals
+- 📈 Advanced monthly/yearly charts
+- 🔐 Enhanced data encryption
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+To contribute:
+
+```bash
+git clone https://github.com/saurav-kumar-tech/Expense-Wise.git
+```
+
+Create a new branch:
+
+```bash
+git checkout -b feature/my-improvement
+```
+
+Add your changes:
+
+```bash
+git add .
+```
+
+Commit your changes:
+
+```bash
+git commit -m "Add new improvement"
+```
+
+Push the branch:
+
+```bash
+git push origin feature/my-improvement
+```
+
+Then create a Pull Request.
 
 ---
 
@@ -375,5 +557,7 @@ This project is created for **educational and personal development purposes**.
 **Track • Manage • Analyze • Export**
 
 Built with ❤️ using **Java Swing**
+
+⭐ **If you like this project, don't forget to star the repository!**
 
 </div>
