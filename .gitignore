@@ -1,0 +1,20 @@
+# Java compiled files
+*.class
+
+# IDE files
+.vscode/
+.idea/
+
+# Build folders
+bin/
+out/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+hs_err_pid*.log
+replay_pid*.log
