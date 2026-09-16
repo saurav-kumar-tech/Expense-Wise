@@ -1,122 +1,278 @@
-# 💰 ExpenseWise – Personal Expense Manager
+<div align="center">
 
-ExpenseWise is a modern Java Swing based desktop application designed to help users manage, track, search, edit, and analyze their personal expenses through a clean and user-friendly graphical interface.
+# 💰 ExpenseWise
 
-The application provides a dashboard-based experience with transaction management, recurring expenses, reports, export options, calendar-based date selection, profile management, theme customization, and more.
+### Personal Expense Manager built with Java Swing
+
+A modern desktop application designed to help users manage their daily expenses, track transactions, monitor spending, manage recurring expenses, view reports, and organize personal financial records through a clean and user-friendly interface.
+
+<p>
+  <img src="https://img.shields.io/badge/Java-8%2B-orange?style=for-the-badge&logo=openjdk" alt="Java">
+  <img src="https://img.shields.io/badge/GUI-Java%20Swing-blue?style=for-the-badge" alt="Java Swing">
+  <img src="https://img.shields.io/badge/Project-Personal%20Finance-success?style=for-the-badge" alt="Personal Finance">
+  <img src="https://img.shields.io/badge/Status-Completed-6f42c1?style=for-the-badge" alt="Completed">
+</p>
+
+<p>
+  <b>Track • Manage • Analyze • Export</b>
+</p>
+
+</div>
 
 ---
 
-## ✨ Features
+## 📌 About the Project
+
+**ExpenseWise** is a Java Swing-based desktop application created for managing personal expenses and financial transactions.
+
+The application provides a simple dashboard where users can add, edit, delete, search, and manage transactions. It also includes recurring expenses, reports, budget-related features, profile management, settings, theme customization, calendar/date selection, and data export options.
+
+The project focuses on applying **Java OOP concepts, GUI development, event handling, file handling, and practical desktop application development**.
+
+---
+
+## ✨ Key Features
 
 ### 📊 Dashboard
-- Total spending overview
+
+- Total balance overview
 - Income and expense summary
+- Monthly spending overview
 - Recent transactions
-- Spending insights
-- Visual dashboard cards
-- Light and Dark theme support
+- Spending visualization
+- Category-wise spending information
+- Budget overview
+- Quick actions
+
+---
 
 ### 💳 Transaction Management
-- Add new transactions
+
+- Add new income and expenses
+- Enter transaction amount
+- Select category
+- Select transaction date
+- Add description
 - Edit existing transactions
 - Delete transactions
-- View complete transaction history
+- View transaction history
 - Search transactions
-- Filter records
-- Category-based transaction management
+- Filter transactions
+- Category-based filtering
+- Date-based filtering
+
+---
 
 ### 🔁 Recurring Expenses
-- Manage recurring expenses
+
+- Add recurring expenses
+- Manage monthly recurring transactions
+- Edit recurring transactions
+- Delete recurring transactions
 - Track regular financial commitments
-- Organize repeated transactions
+
+---
 
 ### 📈 Reports & Analysis
-- Spending reports
-- Category-wise expense analysis
+
+- View spending reports
+- Analyze expenses
+- Category-wise spending
 - Financial overview
-- Export reports in multiple formats
+- Generate reports
+- Export financial data
+
+---
 
 ### 📤 Export Options
-ExpenseWise supports exporting financial data in:
 
-- PDF
-- Excel
-- CSV
+ExpenseWise provides multiple export options:
 
-### 📅 Calendar & Date Selection
-- Calendar-based date selection
-- Date-wise expense management
-- Easy transaction organization by date
+- 📄 PDF
+- 📊 Excel
+- 🧾 CSV
 
-### ⚙️ Settings
-- Light / Dark theme
-- Language settings
-- Currency settings
-- Budget configuration
-- Profile settings
+These options make it easier to save, analyze, or share financial records.
+
+---
+
+### 🎨 Theme Support
+
+The application provides multiple appearance options:
+
+- ☀️ Light Theme
+- 🌙 Dark Theme
+- 🌈 Gradient Theme
+
+Users can customize the appearance according to their preference.
+
+---
+
+### 🌍 Language Support
+
+ExpenseWise includes multiple language options:
+
+- 🇬🇧 English
+- 🇮🇳 Hindi
+- 🇪🇸 Spanish
+- 🇫🇷 French
+- 🇩🇪 German
+- 🇯🇵 Japanese
+
+---
+
+### 💱 Currency Support
+
+The application supports commonly used currencies such as:
+
+- ₹ Indian Rupee
+- $ US Dollar
+- € Euro
+- £ British Pound
+- ¥ Japanese Yen
+
+---
 
 ### 👤 Profile Management
+
 - User profile
 - Edit profile information
-- Personalized application experience
+- Email and phone information
+- Profile customization
+- Profile image support
+- Account settings
+
+---
+
+### ⚙️ Settings
+
+Users can manage:
+
+- Application theme
+- Language
+- Currency
+- Budget
+- Profile
+- Application preferences
+
+---
+
+### 📅 Calendar
+
+- Calendar-based date selection
+- Easy transaction date management
+- Date-wise expense organization
 
 ---
 
 ## 🖥️ Screenshots
 
-### 🔐 Login
-![Login](screenshots/01-login.png)
+### 🔐 Login Screen
 
-### 📊 Dashboard – Light Theme
-![Dashboard Light](screenshots/02-dashboard-light.png)
+![ExpenseWise Login](screenshots/01-login.png)
+
+---
+
+### ☀️ Dashboard – Light Theme
+
+![ExpenseWise Dashboard Light](screenshots/02-dashboard-light.png)
+
+---
 
 ### 🌙 Dashboard – Dark Theme
-![Dashboard Dark](screenshots/03-dashboard-dark.png)
+
+![ExpenseWise Dashboard Dark](screenshots/03-dashboard-dark.png)
+
+---
 
 ### ➕ Add Transaction
-![Add Transaction](screenshots/04-add-transaction.png)
+
+![ExpenseWise Add Transaction](screenshots/04-add-transaction.png)
+
+---
 
 ### 💳 Transactions
-![Transactions](screenshots/05-transactions.png)
+
+![ExpenseWise Transactions](screenshots/05-transactions.png)
+
+---
 
 ### 🔁 Recurring Expenses
-![Recurring Expenses](screenshots/06-recurring.png)
+
+![ExpenseWise Recurring Expenses](screenshots/06-recurring.png)
+
+---
 
 ### 📈 Reports & Export
-![Reports](screenshots/07-reports.png)
+
+![ExpenseWise Reports](screenshots/07-reports.png)
+
+---
 
 ### ⚙️ Settings
-![Settings](screenshots/08-settings.png)
+
+![ExpenseWise Settings](screenshots/08-settings.png)
+
+---
 
 ### 📅 Calendar
-![Calendar](screenshots/09-calendar.png)
+
+![ExpenseWise Calendar](screenshots/09-calendar.png)
+
+---
 
 ### 👤 Edit Profile
-![Edit Profile](screenshots/10-edit-profile.png)
+
+![ExpenseWise Edit Profile](screenshots/10-edit-profile.png)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Java**
-- **Java Swing**
-- **Java AWT**
-- **Java Collections**
-- **Java Time API**
-- **Object-Oriented Programming**
-- **File Handling**
-- **GUI Development**
+| Technology | Purpose |
+|---|---|
+| **Java** | Core programming language |
+| **Java Swing** | Graphical User Interface |
+| **Java AWT** | UI components and event handling |
+| **Java Collections** | Managing application data |
+| **Java Time API** | Date and time handling |
+| **File Handling** | Local data storage |
+| **OOP** | Application architecture |
+| **Java ImageIO** | Image/profile handling |
+
+---
+
+## 🧠 Java Concepts Used
+
+This project demonstrates practical implementation of:
+
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Methods
+- Inheritance concepts
+- Conditional Statements
+- Loops
+- ArrayList
+- Exception Handling
+- Event Handling
+- File Handling
+- Java Swing
+- Java AWT
+- Date & Time API
+- Object-Oriented Programming
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-Expence Tracker/
+ExpenseWise/
 │
 ├── ExpenseWise.java
 ├── run.bat
 ├── README.md
+├── .gitignore
 │
 └── screenshots/
     ├── 01-login.png
